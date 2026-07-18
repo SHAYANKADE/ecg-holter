@@ -1,0 +1,13 @@
+{
+  "name": "ecg-railway-server",
+  "version": "1.0.0",
+  "description": "ECG data receiver + live chart server for Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.0"
+  }
+}
